@@ -1,4 +1,4 @@
-const bot_starts = true;
+const bot_starts = false;
 const status_display = document.querySelector('.game--status');
 const html_cells = document.querySelectorAll('.cell')
 new_tictactoe_board = () => new TicTacToeBoard([null, null, null, null, null, null, null, null, null], !bot_starts, null, false);
