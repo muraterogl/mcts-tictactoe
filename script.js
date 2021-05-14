@@ -51,6 +51,10 @@ handle_restart_game = () => {
     tree = new MCTS();
     board = new_tictactoe_board();
     status_display.innerHTML = "";
+    if(bot_starts){
+        bot_make_a_move();
+        draw_board(board);
+    }
 };
 
 bot_make_a_move = () => {
